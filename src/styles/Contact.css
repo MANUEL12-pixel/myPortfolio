@@ -1,0 +1,95 @@
+.Contactfond{
+    background-color: #383c47 !important;
+    min-height: 90vh !important;
+    margin: 13px 119px !important;
+    border-radius: 10px !important;
+}
+
+.titleContact{
+    font-family: Copperlate !important;
+    color: #ffffff !important;
+    text-align: center !important;
+    padding-top: 100px !important;
+}
+
+.wrapperContact,.rowContact{
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+    grid-gap: 5px !important;
+}
+
+.container{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+textarea{
+    min-height: 150px !important;
+    max-height: 150px !important;
+    width: 350px !important;
+}
+
+span{
+    color: red;
+}
+
+.recap{
+    left: 7%;
+    position: relative;
+}
+
+.buttonSubmit{
+    position: relative;
+    left: 36%;
+    top: 10%;
+}
+
+@media (max-width: 769px){
+    .Contactfond{
+        margin: 0px 55px !important;
+    }
+}
+
+@media (max-width: 414px){
+    .Contactfond{
+        margin: 0px 12px !important;
+    }
+
+    h1.titleContact{
+        font-family: Copperlate !important;
+    color: #ffffff !important;
+    text-align: center !important;
+    padding-top: 18px !important;
+    }
+}
+
+@media (max-width: 376px){
+    .Contactfond{
+        margin: 0px 15px !important;
+    }
+
+    input,textarea{
+        max-width: 275px;
+        min-width: 80px !important;
+        left: 6% !important;
+        position: relative;
+    }
+
+    span{
+        color: red !important;
+        position: relative !important;
+        left: 8% !important;
+    }
+
+    .recap{
+        transform: scale(0.90);
+        transform-origin: 0 0;
+    }
+
+    h1.titleContact{
+        font-family: Copperlate !important;
+    color: #ffffff !important;
+    text-align: center !important;
+    padding-top: 18px !important;
+    }
+}

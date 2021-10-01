@@ -1,0 +1,101 @@
+.Servicesfond {
+    background-image: url("../assets/Home/Codefond.jpg");
+    min-height: 90vh !important;
+    margin: 13px 119px !important;
+}
+
+.Services{
+    padding-left: 44px !important;
+    padding-top: 30px !important;
+    color: #ffffff !important;
+}
+
+.rowServices{
+    margin-top: 13% !important;
+}
+
+.Fullresponsive,
+.Creativedesign,
+.Development{
+    text-align: center !important;
+    color: #ffffff !important;
+}
+
+
+.titleServices{
+    font-family: Copperlate !important;
+    text-shadow: 5px 0px 14px grey!important;
+    color: #ffffff !important;
+}
+
+.descServices{
+    font-family: 'Lucida Sans',italic !important;
+    color: #ffffff !important;
+}
+
+.Iconresponsive{
+    font-size: 35px !important;
+}
+
+.titleResponsive{
+    font-size: 25px !important;
+    color: #ffffff !important;
+}
+
+.Descresponsive{
+    font-size: 15px !important;
+    font-family: 'Arial',italic !important;
+    color: #ffffff !important;
+}
+
+.Iconfill-drip{
+    font-size: 35px !important;
+    color: red !important;
+}
+
+.titleCreativedesign{
+    font-size: 25px !important;
+    color: #ffffff !important;
+}
+
+.DescCreativedesign{
+    font-size: 15px !important;
+    font-family: 'Arial',italic !important;
+    color: #ffffff !important;
+}
+
+.Iconcode{
+    font-size: 35px !important;
+    color: blue !important;
+}
+
+.titleDevelopment{
+    font-size: 25px !important;
+}
+
+.Descdevelopment{
+    font-size: 15px !important;
+    font-family: 'Arial',italic !important;
+    color: #ffffff !important;
+}
+
+@media (max-width: 769px){
+    .Servicesfond{
+        margin: 0px 55px !important;
+    }
+}
+
+@media (max-width: 414px){
+    .Servicesfond{
+        margin: 0px 12px !important;
+        border-radius: 19px !important;
+    }
+}
+
+@media (max-width: 376px){
+    .Servicesfond{
+        margin: 0px 15px !important;
+    }
+
+    
+}

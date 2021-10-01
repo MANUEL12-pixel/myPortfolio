@@ -1,0 +1,82 @@
+.Homefond{
+    background-image: url("../assets/Home/Codefond.jpg");
+    min-height: 91vh !important;
+    margin: 12px 119px !important;  
+}
+
+.container{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.align-items-center{
+    margin-top: 16% !important;
+}
+
+.Perleft{
+width: 300px !important;
+display: flex !important;
+justify-content: center !important;
+border-radius: 50% !important;
+}
+
+.Messages{
+   text-align: center !important;
+   color: #ffff !important;
+   text-shadow: 3px 3px 6px #5a5656 !important;
+   font-family: 'Open Sans Condensed', sans-serif !important;
+}
+
+h2{
+    color: rgb(248, 7, 208) !important;
+}
+
+@media (max-width: 769px){
+    .Homefond{
+        margin: 12px 58px !important;
+        border-radius: 19px  !important;
+    }
+    
+    .align-items-center{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}
+
+@media (max-width: 414px){
+    .Homefond{
+        margin: 12px 44px !important;
+        border-radius: 19px !important;
+        min-height: 87vh !important;
+    }    
+    
+    .Messages{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+}
+
+@media (max-width: 376px){
+    .Homefond{
+        margin: 17px 17px !important;
+        min-height: 81vh !important;
+    }
+    .Perleft{
+        width: 245px !important;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+    }
+    .Messages{
+        display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    }
+
+    .align-items-center{
+        display: flex !important;
+    flex-direction: column !important;
+    }
+}
+

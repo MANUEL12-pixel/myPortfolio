@@ -1,0 +1,140 @@
+.Portfoliofond{
+    min-height: 90vh !important;
+    margin: 13px 119px !important;
+}
+
+.Portfolio{
+    padding-left: 44px !important;
+    padding-top: 30px !important;
+    color: #ffffff !important;
+}
+
+.rowPortfolio{
+    margin-top: 5% !important;
+}
+
+.wrapperPort{
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+    grid-gap: 5px !important;
+    grid-auto-rows: minmax(96px, auto) !important;
+}
+
+.card{
+    width: 18rem;
+}
+
+.card-img-top{
+    width: 285px;
+    height: 200px;
+}
+
+@media (max-width: 769px){
+    .Portfoliofond{
+        margin: 0px 55px !important;
+    }
+
+    .Portfolio{
+        padding-left: 0% !important;
+        padding-top: 5% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .align-items-center{
+        margin-top: 5% !important;
+    }
+
+    .card{
+        margin-top: 5% !important;
+        width: 30rem !important;
+    }
+
+    .card-img-top{
+        width: 476px !important;
+        height: 286px !important;
+    }
+
+    .card-title{
+        text-align: center;
+    }
+
+    .card-text{
+        text-align: justify !important;
+    }
+
+    a{
+        color: transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 414px){
+    .Portfoliofond{
+        margin: 0px 12px !important;
+    }
+
+    .card{
+        margin-top: 5% !important;
+        width: 18rem !important;
+    }
+
+    .card-img-top{
+        width: 286px !important;
+        height: 220px !important;
+    }
+
+    .card-title{
+        text-align: center;
+    }
+
+    .card-text{
+        text-align: justify !important;
+    }
+
+    a{
+        color: transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 376px){
+    .Portfoliofond{
+        margin: 0px 15px !important;
+    }
+
+    .descPortfolio{
+        font-size: 13px !important;
+    }
+
+    .card{
+        margin-top: 5% !important;
+        width: 15rem !important;
+    }
+
+    .card-img-top{
+        width: 238px !important;
+        height: 200px !important;
+    }
+
+    .card-title{
+        text-align: center;
+    }
+
+    .card-text{
+        font-size: 14px !important;
+        text-align: justify !important;
+    }
+
+    a{
+        color: transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}

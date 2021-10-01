@@ -1,0 +1,110 @@
+.Aboutfond{
+    background-color: white !important;
+    min-height: 90vh !important;
+    margin: 13px 119px !important;
+    border-radius: 10px;
+}
+
+.whoIm,
+.Desc{
+    font-family: Copperlate !important;
+    text-shadow: 15px 11px 11px grey!important;
+    color: #000000 !important;
+}
+
+.Iam{
+    font-family: 'Lucida Sans',italic !important;
+    color: black !important;
+    font-size: 16px !important;
+    text-align: justify !important;
+}
+
+.Skylls{
+    font-family: Copperlate !important;
+}
+
+.rowColumn{
+    margin-top: 5% !important;
+}
+
+.HTML1,
+.CSS3,
+.Jscript,
+.Git,
+.Nodejs,
+.Angular,
+.Vue,
+.React2,
+.AStudio,
+.Java{
+    width: 80px !important;
+    display: flex !important;
+    justify-content: center !important;
+    filter: drop-shadow(0 2px 5px gray) !important;
+}
+
+.wrapper{
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    grid-gap: 5px !important;
+    grid-auto-rows: minmax(96px, auto) !important;
+}
+
+@media (max-width: 769px){
+    .Aboutfond{
+        margin: 0px 55px !important;
+    }
+}
+
+@media (max-width: 414px){
+    .Aboutfond{
+        margin: 0px 12px !important;
+    }
+    .Message1{
+        display: flex !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    }
+
+    .Skylls{
+        font-size: 20px !important;
+        text-align: center !important;
+        margin: 10px !important;
+    }
+}
+
+@media (max-width: 376px){
+    .Aboutfond{
+        margin: 0px 15px !important;
+    }
+    
+    .Message1{
+        display: flex !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    }
+
+    .Iam{
+        font-size: 14px !important;
+        margin: 10px !important;
+    }
+
+    .Skylls{
+        font-size: 20px !important;
+    text-align: center !important;
+    margin: 10px !important;
+    }
+
+    .HTML1,
+.CSS3,
+.Jscript,
+.Git,
+.Nodejs,
+.Angular,
+.Vue,
+.React2,
+.AStudio,
+.Java{
+    width: 60px !important;
+}
+}

@@ -1,10 +1,34 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ReCAPTCHA from "react-google-recaptcha";
 import { useForm } from "react-hook-form";
+import axios from "axios";
 
 function Contact() {
+  /*
+  const [setPost] = React.useState(null);
+  const baseURL = "http://localhost:3500/form";
+
+   React.useEffect(() => {
+     axios.get(`${baseURL}`).then((response) => {
+       setPost(response.data);
+     });
+   }, []);
+
+  function SubmitAP() {
+    axios
+      .post(baseURL, {
+        Names: "",
+        Asunt: "",
+        email: "",
+        Message: "",
+      })
+      .then((response) => {
+        setPost(response.data);
+      });
+  }
+*/
   const {
     register,
     handleSubmit,
@@ -26,7 +50,7 @@ function Contact() {
       </div>
       <div className="container">
         <div className="wrapper wrapperContact">
-          <form onSubmit={handleSubmit(onSubmit)}>
+          <form onSubmit={handleSubmit(onSubmit)} method="post">
             <div className="row rowContact">
               <div className="col">
                 <input
@@ -115,6 +139,7 @@ function Contact() {
                 <button
                   type="submit"
                   class="btn btn-outline-light buttonSubmit"
+                  // onClick={SubmitAP}
                 >
                   <FontAwesomeIcon
                     icon={["fas", "paper-plane"]}

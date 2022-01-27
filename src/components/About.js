@@ -33,7 +33,7 @@ function About() {
                 continue improving and gain experience in this beautiful
                 profession.
               </p>
-              <a target="_blank" href="https://github.com/MANUEL18-Dev">
+              <a target="_blank" href="https://github.com/MANUEL12-pixel">
                 <button type="button" class="btn btn-outline-dark">
                   <FontAwesomeIcon icon={["fab", "github"]} /> More about me
                 </button>

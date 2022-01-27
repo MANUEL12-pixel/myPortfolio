@@ -5,14 +5,18 @@ import ReCAPTCHA from "react-google-recaptcha";
 // import { useForm } from "react-hook-form";
 import axios from "axios";
 
+// function validate(){
+//   const {
+//     register,
+//     handleSubmit,
+//     watch,
+//     formState: { errors },
+//  } = useForm();
+//   const onSubmit = (data) => console.log(data);
+
+// }
+
 export default class Contact extends React.Component {
-  // const {
-  //   register,
-  //    formState: { errors },
-  //  } = useForm();
-
-  // const onSubmit = (data) => console.log(data);
-
   name = React.createRef();
   asunt = React.createRef();
   email = React.createRef();
@@ -23,6 +27,7 @@ export default class Contact extends React.Component {
     asunt: "",
     email: "",
     message: "",
+    errors: {},
   };
 
   comprobarCambios = () => {
